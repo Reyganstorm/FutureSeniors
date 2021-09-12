@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		603C188126EE4159006D0A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C188026EE4159006D0A03 /* AppDelegate.swift */; };
 		603C188326EE4159006D0A03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C188226EE4159006D0A03 /* SceneDelegate.swift */; };
-		603C188526EE4159006D0A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C188426EE4159006D0A03 /* ViewController.swift */; };
 		603C188826EE4159006D0A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603C188626EE4159006D0A03 /* Main.storyboard */; };
 		603C188A26EE415F006D0A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603C188926EE415F006D0A03 /* Assets.xcassets */; };
 		603C188D26EE415F006D0A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603C188B26EE415F006D0A03 /* LaunchScreen.storyboard */; };
+		603C189B26EE468B006D0A03 /* SeniorUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C189A26EE468B006D0A03 /* SeniorUsersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		603C187D26EE4159006D0A03 /* FutureSeniors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureSeniors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603C188026EE4159006D0A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603C188226EE4159006D0A03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		603C188426EE4159006D0A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		603C188726EE4159006D0A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		603C188926EE415F006D0A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603C188C26EE415F006D0A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603C188E26EE415F006D0A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603C189A26EE468B006D0A03 /* SeniorUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SeniorUsersTableViewController.swift; path = FutureSeniors/SeniorUsersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,48 @@
 		603C187F26EE4159006D0A03 /* FutureSeniors */ = {
 			isa = PBXGroup;
 			children = (
-				603C188026EE4159006D0A03 /* AppDelegate.swift */,
-				603C188226EE4159006D0A03 /* SceneDelegate.swift */,
-				603C188426EE4159006D0A03 /* ViewController.swift */,
-				603C188626EE4159006D0A03 /* Main.storyboard */,
-				603C188926EE415F006D0A03 /* Assets.xcassets */,
-				603C188B26EE415F006D0A03 /* LaunchScreen.storyboard */,
-				603C188E26EE415F006D0A03 /* Info.plist */,
+				603C189C26EE497F006D0A03 /* ViewControllers */,
+				603C189526EE439F006D0A03 /* StoryBoards */,
+				603C189626EE43B0006D0A03 /* Contents */,
+				603C189426EE4391006D0A03 /* App */,
 			);
 			path = FutureSeniors;
+			sourceTree = "<group>";
+		};
+		603C189426EE4391006D0A03 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				603C188026EE4159006D0A03 /* AppDelegate.swift */,
+				603C188226EE4159006D0A03 /* SceneDelegate.swift */,
+				603C188E26EE415F006D0A03 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		603C189526EE439F006D0A03 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				603C188626EE4159006D0A03 /* Main.storyboard */,
+				603C188B26EE415F006D0A03 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		603C189626EE43B0006D0A03 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				603C188926EE415F006D0A03 /* Assets.xcassets */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		603C189C26EE497F006D0A03 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				603C189A26EE468B006D0A03 /* SeniorUsersTableViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603C188526EE4159006D0A03 /* ViewController.swift in Sources */,
 				603C188126EE4159006D0A03 /* AppDelegate.swift in Sources */,
+				603C189B26EE468B006D0A03 /* SeniorUsersTableViewController.swift in Sources */,
 				603C188326EE4159006D0A03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3448RJL2F;
-				INFOPLIST_FILE = FutureSeniors/Info.plist;
+				INFOPLIST_FILE = FutureSeniors/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.FutureSeniors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3448RJL2F;
-				INFOPLIST_FILE = FutureSeniors/Info.plist;
+				INFOPLIST_FILE = FutureSeniors/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.SwiftBook.FutureSeniors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

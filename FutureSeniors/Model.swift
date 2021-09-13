@@ -18,6 +18,7 @@ struct Person {
     
     var fullName: String {
         "\(name) \(lastName)"
+        
     }
 }
 

@@ -9,7 +9,9 @@ class DataManager{
     static let shared = DataManager()
     
     let names = ["Igor", "Dmitry"]
+    
     let lastName = ["Sysoev", "Sechkarenko"]
+    
     let age = [
         "IgorSysoev": "27",
         "DmitrySechkarenko": "30"

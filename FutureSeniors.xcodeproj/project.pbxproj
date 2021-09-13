@@ -15,6 +15,7 @@
 		603C189B26EE468B006D0A03 /* SeniorUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C189A26EE468B006D0A03 /* SeniorUsersTableViewController.swift */; };
 		8E0E6A6526EFD9DA006E8FF6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E6A6426EFD9DA006E8FF6 /* Model.swift */; };
 		8E0E6A6726EFDA12006E8FF6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E6A6626EFDA12006E8FF6 /* DataManager.swift */; };
+		E8CD1A3626EFEBD5006E8022 /* ForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD1A3526EFEBD5006E8022 /* ForGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		603C189A26EE468B006D0A03 /* SeniorUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SeniorUsersTableViewController.swift; path = FutureSeniors/SeniorUsersTableViewController.swift; sourceTree = "<group>"; };
 		8E0E6A6426EFD9DA006E8FF6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8E0E6A6626EFDA12006E8FF6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E8CD1A3526EFEBD5006E8022 /* ForGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				603C189626EE43B0006D0A03 /* Contents */,
 				603C189426EE4391006D0A03 /* App */,
 				8E0E6A6426EFD9DA006E8FF6 /* Model.swift */,
+				E8CD1A3526EFEBD5006E8022 /* ForGame.swift */,
 				8E0E6A6626EFDA12006E8FF6 /* DataManager.swift */,
 			);
 			path = FutureSeniors;
@@ -181,6 +184,7 @@
 				603C189B26EE468B006D0A03 /* SeniorUsersTableViewController.swift in Sources */,
 				603C188326EE4159006D0A03 /* SceneDelegate.swift in Sources */,
 				8E0E6A6526EFD9DA006E8FF6 /* Model.swift in Sources */,
+				E8CD1A3626EFEBD5006E8022 /* ForGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
